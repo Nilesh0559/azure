@@ -101,9 +101,9 @@
 1. Virtual Machine is virtual server running on physical server.
 2. It allows creating new servers extremely quick.
 3. Virtual machines are called unmanaged services because azure doesn't manage what's happening inside the server & managing it is responsibility of user.
-   ![Virtual Machine Architecture](/images/virtual-machine-arch.png)
+   ![Virtual Machine Architecture](/images/virtual-machine-architecture.png)
 4. The cost of VM isn’t only the cost of VM but it also includes cost of disk, IP, storage etc.
-   ![Virtual Machine Cost](/images/vm-cost.png)
+   ![Virtual Machine Cost](/images/vm-costing.png)
 5. In order to reduce cost of VM we can use following techniques –
 
 - Auto Shutdown –
