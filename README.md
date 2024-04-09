@@ -89,3 +89,39 @@
   2. Per consumption (eg. Function Apps)
   3. Reservation (Upfront payment on resource for certain period which benifits discount)
 - Azure calculator: [Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
+
+# Compute
+
+- Compute is set of cloud services for hosting and running applications.
+- It offers various levels of control and flexibility.
+- Four main types of compute services –
+
+## Virtual Machines (IaaS Service) –
+
+1. Virtual Machine is virtual server running on physical server.
+2. It allows creating new servers extremely quick.
+3. Virtual machines are called unmanaged services because azure doesn't manage what's happening inside the server & managing it is responsibility of user.
+   ![Virtual Machine Architecture](../azure/images/virtual-machine-arch.png)
+4. The cost of VM isn’t only the cost of VM but it also includes cost of disk, IP, storage etc.
+   ![Virtual Machine Cost](../azure/images/vm-cost.png)
+5. In order to reduce cost of VM we can use following techniques –
+
+- Auto Shutdown –
+  a. This shuts down the VM automatically when not needed.
+  b. Used for dev/test environment.
+  c. This will still cost us for storage and IP.
+  d. This can reduce cost up to 50%.
+
+- Reserved Instances –
+  a. This includes upfront payment for resource (VM) which can’t be refunded for certain period (1 or 3 years).
+  b. This is used for production environment resources.
+  c. This can save up to 62%.
+
+- Spot Instances –
+  a. Here machines run on unused capacity (unused servers) in Azure.
+  b. Can be evicted (shut down or deleted) at any moment by Azure.
+  c. This can be used for non-critical or non-continuous tasks such as batch processes.
+  d. Offers up to 90% discount.
+
+- Disk Optimization –
+  a. This is nothing but selecting right disk for this machine.
